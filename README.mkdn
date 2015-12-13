@@ -1,0 +1,30 @@
+YuPlayAOSP
+=============
+
+-----------------------
+|  Getting Started    |
+-----------------------
+
+To get started with Android, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+
+To initialize your local repository using the YuPlayAOSP trees, start with below command:
+
+    $ repo init -u https://github.com/YuPlayAOSP/platform_manifest.git -b mm6.0
+
+Then to sync up:
+
+    $ repo sync -j10
+
+-----------------------
+| Building the source |
+-----------------------
+
+Since the repo is WIP, it is always recommended to sync sources before you start a build.
+
+    $ repo sync -f -j10
+
+The source build is easy. Once you sync up sources, key in below commands to start building AOSP package.
+
+    $ . build/envsetup.sh
+    $ brunch lettuce
