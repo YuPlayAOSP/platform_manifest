@@ -550,6 +550,7 @@
   <project path="kernel/cyanogen/msm8916" name="YuPlayAOSP/android_kernel_cyanogen_msm8916" revision="mm6.0-amss-1.0.2" />
   <project path="packages/apps/Bluetooth" name="YuPlayAOSP/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" revision="mm6.0" />
   <project path="vendor/cm" name="YuPlayAOSP/android_vendor_aosp" revision="mm6.0" />
+  <project path="vendor/yu" name="YuPlayAOSP/proprietary_vendor_yu" revision="mm6.0" />
 <!-- END YU -->
 
 </manifest>
