@@ -204,7 +204,6 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="aosp" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" remote="aosp" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -544,6 +543,7 @@
   </project>
   <project path="frameworks/av" name="YuPlayAOSP/android_frameworks_av" groups="pdk" revision="mm6.0" />
   <project path="frameworks/base" name="YuPlayAOSP/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="mm6.0" />
+  <project path="frameworks/native" name="YuPlayAOSP/android_frameworks_native" groups="pdk" revision="mm6.0" />
   <project path="frameworks/opt/telephony" name="YuPlayAOSP/android_frameworks_opt_telephony" groups="pdk" revision="mm6.0" />
   <project path="device/cyanogen/msm8916-common" name="YuPlayAOSP/android_device_cyanogen_msm8916-common" revision="mm6.0" />
   <project path="device/yu/lettuce" name="YuPlayAOSP/android_device_yu_lettuce" revision="mm6.0" />
