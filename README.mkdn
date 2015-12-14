@@ -8,11 +8,11 @@ YuPlayAOSP
 To get started with Android, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-You will need some additional packages pre-installed on your machine to ensure proper build.
+You will need some additional packages pre-installed on your machine.
 Ensure you install the same using below command:
 
     $ sudo apt-get purge openjdk-\* icedtea-\* icedtea6-\*
-    $ sudo apt-get install bison build-essential curl flex git gnupg gperf libesd0-dev liblz4-tool libncurses5-dev libsdl1.2-dev libwxgtk2.8-dev libxml2 libxml2-utils lzop openjdk-7-jdk openjdk-7-jre pngcrush schedtool squashfs-tools xsltproc zip zlib1g-dev g++-multilib gcc-multilib lib32ncurses5-dev lib32z1-dev
+    $ sudo apt-get install bison build-essential curl flex git gnupg gperf libesd0-dev liblz4-tool libncurses5-dev libsdl1.2-dev libwxgtk2.8-dev libxml2 libxml2-utils lzop openjdk-7-jdk openjdk-7-jre pngcrush schedtool squashfs-tools xsltproc zip zlib1g-dev g++-multilib gcc-multilib lib32ncurses5-dev
 
 To initialize your local repository using the YuPlayAOSP trees, start with below command:
 
@@ -26,7 +26,7 @@ Then to sync up:
 | Building the source |
 -----------------------
 
-Since the repo is WIP, it is always recommended to sync sources before you start a build.
+Since the repo is updated for fixes from time to time, it is always recommended to sync sources before you initiate a build.
 
     $ repo sync -f -j10
 
